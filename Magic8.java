@@ -41,7 +41,7 @@ public void magic() {
     Random rand = new Random(); 
    
 		int randNum;
-    randNum = rand.nextInt(8) + 0; // picks random numbers from 0 to 8
+    randNum = rand.nextInt(9) + 0; // picks random numbers from 0 to 8
     Magic8 num = new Magic8(randNum);
     num.magic();
 		
